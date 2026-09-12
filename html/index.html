@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-dom</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/JS/app.js"></script>
+</head>
+
+<body class="js-dom-body">
+    <main>
+        <div class="container text-center my-5">
+            <h1 class="text-white">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+            <div class="row row-cols-1">
+                <div class="col">
+                    <div class="card text-center">
+                        <form class="my-3" action="" id="form">
+                            <div class="inputs">
+                                <label for="fullName">Nome e Cognome</label>
+                                <input id="fullName" type="text">
+                                <label for="km">Km da percorrere</label>
+                                <input id="km" type="number">
+                                <label for="age">Fascia d'età</label>
+                                <select name="age" id="age">
+                                    <option value="Maggiorenne">Maggiorenne</option>
+                                    <option value="Minorenne">Minorenne</option>
+                                    <option value="Over 65">Over 65</option>
+                                </select>
+                            </div>
+                            <div class=" my-4 d-flex justify-content-center align-items-center">
+
+                                <input class="btn btn-primary" type="submit" value="Genera">
+                                <button class="btn btn-danger">Annulla</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card text-center d-none">
+                        <div class="card-body">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
